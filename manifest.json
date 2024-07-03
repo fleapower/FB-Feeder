@@ -1,0 +1,19 @@
+{
+  "name": "FB Feeder",
+  "description": "Redirects facebook.com to the facebook.com/?filter=all&sk=h_chr.  This takes you straight to your feed page.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+   "icons": {
+    "16": "FB Feeder 16.png",
+    "32": "FB Feeder 32.png",
+    "48": "FB Feeder 48.png",
+    "128": "FB Feeder 128.png"
+  },
+  "permissions": [
+    "webRequest",
+    "*://facebook.com/*",
+    "*://www.facebook.com/*",
+    "webRequestBlocking"
+  ]
+}
